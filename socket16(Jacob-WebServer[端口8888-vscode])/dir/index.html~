@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="header-w3layoutstop">
+		<div class="container">  
+			<div class="hdr-w3left navbar-left">
+				<p><span class="fa fa-mobile"></span> TEL:1842117060</p> 
+			</div>
+			<div class="search-grid">
+					<form action="#" method="post">
+						<input type="text" placeholder="Subscribe" class="big-dog" name="Subscribe" required="">
+						<button class="btn1"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>	
+		</div>
+	</div>
+<!-- navigation -->
+<div class="nav-links">	
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="index.html"><h4><font color="#0000FF">Linux高并发网络服务器测试界面</font></h4></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav link-effect">
+					<li class="active"><a href="index.html">主页</a></li>
+					<li><a href="services.html">服务</a></li>
+					<li><a href="projects.html">项目</a></li>
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span data-hover="Short Codes">其他</span> <b class="caret"></b></a>
+							<ul class="dropdown-menu agile_short_dropdown">
+								<li><a href="icons.html">Web Icons</a></li>
+								<li><a href="typography.html">Typography</a></li>
+							</ul>
+					</li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<!-- /navigation -->
+<!-- banner-->
+<div class="w3layouts-banner-slider">
+				<div class="container">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li>
+									<div class="top-agileits-banner">
+										<div class="agileits-banner-info">
+											<h3>welcome!!!</h3>
+										</div>
+										<div class="agileinfo-social-grids">
+											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="#"><i class="fa fa-twitter"></i></a>
+											<a href="#"><i class="fa fa-rss"></i></a>
+											<a href="#"><i class="fa fa-vk"></i></a>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+								<li>
+									<div class="top-agileits-banner">
+										<div class="agileits-banner-info">
+										Contact	<h3>welcome!!!</h3>
+										</div>
+										<div class="agileinfo-social-grids">
+											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="#"><i class="fa fa-twitter"></i></a>
+											<a href="#"><i class="fa fa-rss"></i></a>
+											<a href="#"><i class="fa fa-vk"></i></a>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+								<li>
+									<div class="top-agileits-banner">
+										<div class="agileits-banner-info">
+											<h3>welcome!!!</h3>
+										</div>
+										<div class="agileinfo-social-grids">
+											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="#"><i class="fa fa-twitter"></i></a>
+											<a href="#"><i class="fa fa-rss"></i></a>
+											<a href="#"><i class="fa fa-vk"></i></a>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+								<li>
+									<div class="top-agileits-banner">
+										<div class="agileits-banner-info">
+											<h3>welcome!!!</h3>
+										</div>
+										<div class="agileinfo-social-grids">
+											<a href="#"><i class="fa fa-facebook"></i></a>
+											<a href="#"><i class="fa fa-twitter"></i></a>
+											<a href="#"><i class="fa fa-rss"></i></a>
+											<a href="#"><i class="fa fa-vk"></i></a>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager:true,
+								nav:false,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						 </script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+		</div>
+	<!-- //banner -->
+
+<!-- /banner-->
+
+<!-- services -->
+	<div class="services">
+		<div class="container"> 
+		<div class="ser-wthree">
+			<div class="services-agileinfo">   
+				<div class="col-sm-4 col-xs-6 services-w3grids">
+					<div class="ser-agile">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-anchor" aria-hidden="true"></i>
+						</div>
+						<h4>non nibh</h4>
+						<p>Sagittis donec non nibh in dui finibus. Duis suscipit arcu vel rhoncus molestie .</p>
+					</div>
+				</div>
+				<div class="col-sm-4 col-xs-6 services-w3grids">
+					<div class="ser-agile">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-line-chart" aria-hidden="true"></i>
+						</div>
+						<h4>non nibh</h4>
+						<p>Sagittis donec non nibh in dui finibus. Duis suscipit arcu vel rhoncus molestie .</p>
+					</div> 
+				</div> 
+				<div class="col-sm-4 col-xs-6 services-w3grids">
+					<div class="ser-agile">
+						<div class="services-icon hvr-radial-in">
+							<i class="fa fa-check-square-o" aria-hidden="true"></i>
+						</div>
+						<h4>non nibh</h4>
+						<p>Sagittis donec non nibh in dui finibus. Duis suscipit arcu vel rhoncus molestie .</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div> 
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!-- //services -->
+	<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<div class="agileits-title">
+				<h3 class="agileits-title w3title1">About Us</h3>
+				<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+			</div> 
+			<div class="w3ls-row alert">
+				<div class="col-md-6 welcome-w3left">
+					<img src="images/about.jpg" class="img-responsive" alt=""/>
+				</div>
+				<div class="col-md-6 welcome-w3right">
+					<div class="welcome-agiletext">
+						<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+						<h4> Proin vel enim nec ipsum </h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum lobortis. Fusce eu semper lacus, eget placerat mauris. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget. Nulla ornare purus nunc, ut dapibus leo sodales adipiscing. Praesent sit amet justo diam. Quisque sagittis egestas sem vitae vestibulum.  </p>
+						<a href="#myModal" data-toggle="modal" class="more">Read More</a>
+					
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+
+<!-- reservation -->
+	<div class="reservation-info"> 
+		<div class="reservation">
+			<div class="container">			
+				  
+				<div class="col-md-8 book-reservation">
+				<h2 class="agileits-title w3title2">Better Rates</h2>
+				<h4>By using better</h4>
+				<p>Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+					<form action="#" method="post">  
+						
+						<div class="col-md-7 form-left">
+							<select class="form-control">
+								<option>ITEM -1</option>
+								<option>ITEM -2</option>
+								<option>ITEM -3</option>
+								<option>ITEM -4</option>
+								<option>ITEM -5</option>
+								<option>More</option>
+							</select>
+						</div>
+					
+						
+						<div class="col-md-5 make">
+							<input type="submit" value="CHECK YOUR RATE">
+						</div>
+						<div class="clearfix"> </div>
+					</form> 
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	
+	<!-- //reservation -->
+
+<!-- team -->
+	<div class="team">
+		<div class="container">
+			<h3 class="agileits-title w3title1">Meet Our Team</h3>
+			<p class="top-p">Mauris vestibulum ac sem at ornare. Praesent feugiat metus pellentesque, finibus massa quis, viverra lacus. Ut nisi ante, dignissim sit amet justo pretium.</p>
+			<div class="agile_team_grids">
+				<div class="col-md-4 agile_team_grid agile1">
+					<div class="agile_team_grid_main">
+						<img src="images/t1.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<ul class="social-icons">
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="agile_team_grid1">
+						<h4>Williamson</h4>
+						<p>Managing Director</p>
+					</div>
+				</div>
+				<div class="col-md-4 agile_team_grid agile2">
+					<div class="agile_team_grid_main">
+						<img src="images/t2.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<ul class="social-icons">
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="agile_team_grid1">
+						<h4>Linda Carl </h4>
+						<p>Manager</p>
+					</div>
+				</div>
+				<div class="col-md-4 agile_team_grid agile3">
+					<div class="agile_team_grid_main">
+						<img src="images/t3.jpg" alt=" " class="img-responsive" />
+						<div class="p-mask">
+							<ul class="social-icons">
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="agile_team_grid1">
+						<h4>Harington</h4>
+						<p>General Manager</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //team -->
+<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Prefabrication</h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/g8.jpg" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //modal -->
+
+	<!-- footer start here --> 
+	<div class="footer-agile jarallax">
+		<div class="container">
+			
+			<div class="footer-btm-agileinfo">
+				<div class="col-md-3 col-xs-3 footer-grid">
+					<h3>Useful Info</h3>
+					<ul>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Hendrerit quam</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Amet consectetur </a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Iquam hendrerit</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-menu-right"></i>Donec ut lectus </a></li>
+					</ul>
+				</div> 
+				<div class="col-md-3 col-xs-3 footer-grid w3social">
+					<h3>Navigation</h3> 
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li> 
+						<li><a href="projects.html">Projects</a></li> 
+						<li><a href="contact.html">Contact</a></li> 
+					</ul> 
+				</div> 
+				<div class="col-md-6 col-xs-6 footer-grid footer-review">
+					<h3>Newsletter</h3>
+					<form action="#" method="post">
+						<input type="email" name="Email" placeholder="Your Email" required="">
+						<input type="submit" value="Subscribe"> 
+						<div class="clearfix"> </div>
+					</form> 
+					<div class="copy-w3lsright"> 
+						<p>Copyright &copy; 2018.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+					</div> 
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+			<div class="footer-top-agileinfo">  
+				<div class="social-wthree-icons bnragile-icons">
+					<ul>
+						<li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+						<li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+						<li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+						<li><a href="#" class="fa fa-dribbble icon icon-border dribbble"> </a></li> 
+					</ul>
+					<div class="clearfix"> </div>
+				</div>  
+			</div>			
+		</div>
+	</div> 
+	<!-- //footer end here -->   
+	<script src="js/responsiveslides.min.js"></script>
+		<!-- start-smooth-scrolling -->
+			<script type="text/javascript" src="js/move-top.js"></script>
+			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+			</script>
+	<!-- //start-smoth-scrolling -->
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+</body>
+</html>

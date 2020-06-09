@@ -1,0 +1,3 @@
+working dir: ./dir
+The direction of logPath is: ./log/WebServer.log
+The port of JacobWebserver is: 8888
